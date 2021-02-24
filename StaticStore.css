@@ -1,0 +1,110 @@
+header h1 {
+	font-family: "Luminari", fantasy;
+	color: rgba(90, 44, 7, 0.904);
+	font-size: 5em;
+	letter-spacing: 0em;
+	margin: 0;	
+}
+header h2 {
+	font-family: "Lucida Handwriting", cursive;
+	font-weight: 300;
+	font-size: 3.8em;
+	color: #ec8c1dd3;
+	margin: -0.4em 0 0 4.0em;
+    letter-spacing: 0.05em;
+}
+.container {
+	position: relative;
+  }
+  
+  .text-block {
+	position: relative;
+	background-color:transparent;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+header {
+	float: center;
+	width: 93%;
+	background: url(Eyebrow0.jpg);
+	border-radius: 5%;
+ }
+ nav {
+	color: #000;
+	font-size: 1.7em;
+	letter-spacing: 0.04em;
+	padding: 1.0em 1.0em 0.5em;
+	margin: 1.0em 0 ;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li {
+	display: inline-block;
+	margin: 0;
+}
+nav li a, nav li a:visited {
+	text-decoration: none;
+	color: rgba(90, 44, 7, 0.904);
+	padding: 0.3em 0.6em;
+}
+nav li a:hover {
+	color: rgba(90, 44, 7, 0.904)2;
+	background-color: #ec8c1dd3;
+}
+nav menu li {
+	padding: 0 0.25em 0 0.2em;
+	vertical-align: middle;	
+}
+nav menu ul li.acctNav a:hover {
+	background-color: #ec8c1dd3;
+	color: rgba(90, 44, 7, 0.904);
+}
+section#sidebarLeft {
+	color: rgba(90, 44, 7, 0.904);
+	width: 238px;
+	float: left;
+	position: relative;
+	display: block;
+	background-color: #ec8c1dd3;
+	padding: 1.7em 0.5em 2.0em 1.7em;
+	border-left:rgba(90, 44, 7, 0.904) solid 5px;
+}
+section#sidebarRight {
+	color: rgba(90, 44, 7, 0.904);
+	width: 238px;
+	float: right;
+	position: relative;
+	display: block;
+	background-color: #ec8c1dd3;
+	padding: 1.7em 0.5em 2.0em 1.7em;
+	border-right:rgba(90, 44, 7, 0.904) solid 5px;
+}
+body {
+	background-color: rgb(245, 179, 94);
+}
+footer {
+		height: 25px;
+		font-size: 1.2em;
+		color:rgba(90, 44, 7, 0.904);
+		text-align: center;
+		padding: 1.5em 2.0em;
+}
+footer ul li {
+	float: right;
+	padding: 0 0.7em 0 0;
+	margin: 0;
+}
+footer ul li::before {
+	padding-right: 0.7em;
+}
+footer a, footer a:visited {
+	color: rgba(90, 44, 7, 0.904);
+	text-decoration: none;
+}
+footer a:hover {
+	color: rgba(90, 44, 7, 0.904);
+	text-decoration: underline;
+}
